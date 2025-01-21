@@ -1,0 +1,193 @@
+/* General Reset and Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+/* Default Link Color */
+a {
+    color: #3498db; /* Set to a blue color */
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* Link color when hovered */
+a:hover {
+    color: #e74c3c; /* Change to red on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Styling the 'Book Now' buttons specifically */
+.cta-button {
+    background-color: #3498db; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* Button color change when hovered */
+.cta-button:hover {
+    background-color: #e74c3c; /* Red background on hover */
+    color: white;
+}
+
+/* Footer Link Styling */
+footer a {
+    color: #2c3e50; /* Dark color for footer links */
+    margin-right: 15px;
+}
+
+/* Footer Links on Hover */
+footer a:hover {
+    color: #3498db; /* Change color to blue when hovered */
+}
+
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+header .logo-icon {
+    width: 40px;
+    height: auto;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section Styling */
+.hero {
+    background: url('Mountain.jpg') no-repeat center center/cover;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #e04e2a;
+}
+
+/* Featured Services Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.feature {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.feature p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Call to Action Section */
+.cta {
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+footer .footer-links {
+    margin-top: 10px;
+}
+
+footer .footer-links a {
+    color: white;
+    margin: 0 15px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+footer .footer-links a:hover {
+    color: #ff5733;
+}
